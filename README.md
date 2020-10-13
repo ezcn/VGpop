@@ -15,12 +15,14 @@ ODGI
 
 - Download from *Bioconda* [odgi](https://anaconda.org/bioconda/odgi)
 
-### Usage
+### Download 
 Clone the source locally:
 ```
 git clone https://github.com/Flavia95/VGpop.git
 cd VGpop
 ```
+
+### gfa2vcf 
 Before run the script [GfatoVcf.py](GfatoVcf.py), you need to:
 
 #### 1. Convert the GFA format to the ODGI format
@@ -38,6 +40,14 @@ python GfatoVcf.py -path /../odgi/lib/ -input /../samplePath3.odgi
 ### Description of the script 
 
 [DescriptionGfatoVcf.md](/doc/DescriptionGfatoVCF.md)
+
+
+### gfa2tajima
+``` gfa2tajima(arg1, arg2 ,arg3 ) 
+```
+arg1= spiegazione 
+arg2= average number of pairwise differences (avePairDiff)
+
 
 ### Author
 
